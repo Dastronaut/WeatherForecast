@@ -1,0 +1,11 @@
+BT: Làm ứng dụng show thời tiết hiện tại theo location (latitude, longitude)
+=> Vào trang https://openweathermap.org/api đăng ký tài khoản & lấy api_key tại https://home.openweathermap.org/api_keys
+Gọi API để lấy thông tin thời tiết hiện tại
+VD: Tại London
+https://api.openweathermap.org/data/2.5/weather?appid=91f0a8b6f894af27a2bc624be1f3f3b6&units=metric&q=london
+=> Cài package: https://github.com/react-native-geolocation/react-native-geolocation
+=> Dùng package để lấy location hiện tại của điện thoại (latitude, longitude)
+=> Gọi API lấy thời tiết tại vị trí hiện tại
+VD: https://api.openweathermap.org/data/2.5/weather?appid=91f0a8b6f894af27a2bc624be1f3f3b6&units=metric&lat=16&lon=108
+=> Tạo chức năng search thời tiết theo thành phố
+=> Dùng thẻ <Input /> từ react-native-elements, có thể tham khảo code tại https://github.com/longly151/BaeCare
